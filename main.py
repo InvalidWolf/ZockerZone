@@ -3,7 +3,7 @@ import discord
 from discord.ext import commands
 
 
-bot = commands.AutoShardedBot(command_prefix='!', case_insensitive=True, help_command=None, intents=discord.Intents.all())
+bot = commands.Bot(command_prefix='!', case_insensitive=True, help_command=None, intents=discord.Intents.all())
 
 admins = [497767671392108554]
 
